@@ -6,7 +6,11 @@
 */
 
 function evenNumbers(n) {
-    // TODO
+    let i = 0;
+    while((n * 2) > i) {
+        console.log(i);
+        i += 2;
+    }
 }
 
 evenNumbers(3); // should output 0,2,4

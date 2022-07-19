@@ -13,6 +13,7 @@
 let a;
 console.log(a);
 
+// We see undefined because variable "a" has no value */
 
 // Example 2
 function sayHello() {
@@ -22,6 +23,7 @@ function sayHello() {
 let hello = sayHello();
 console.log(hello);
 
+// We see undefined because we can't print the function */
 
 // Example 3
 function sayHelloToUser(user) {
@@ -30,7 +32,10 @@ function sayHelloToUser(user) {
 
 sayHelloToUser();
 
+// We see undefined because when we call a function, we do not specify its parameter */
 
 // Example 4
 let arr = [1,2,3];
 console.log(arr[3]);
+
+// We see undefined because we are accessing the array value by its index. In this case, there is no array element value at index 3*/
